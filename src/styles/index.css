@@ -1,13 +1,19 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import "../styles/banner.css";
+@import "../styles/card.css";
+@import "../styles/error.css";
+@import "../styles/footer.css";
+@import "../styles/header.css";
+@import "../styles/home.css";
+@import "../styles/collapse.css";
+@import "../styles/tag.css";
+@import "../styles/logementsinfos.css";
+@import "../styles/carrousel.css";
+* {
+  font-family: 'Montserrat', sans-serif;
+    /*box-sizing: border-box;*/
+    
+
+    
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
